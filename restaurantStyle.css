@@ -1,0 +1,58 @@
+
+
+
+
+#footer
+{
+	font-family: sans-serif;
+	text-decoration: line-through;
+  
+}
+
+#name
+{
+	font-family: sans-serif;
+	text-decoration: line-through;
+	text-align: center;
+}
+
+hr
+{
+	border-top: 5px double;
+}
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(0, 165, 0, 0.5);
+}
+
+a 
+{
+	font-family: serif;
+	text-decoration: underline;
+	font-weight: normal;
+			
+}
+
+a:link
+{
+	color: #44749d;
+}
+
+a:hover
+{
+	font-weight: bold;
+}
+
+a:active
+{
+	text-decoration: initial;
+	color: #44749d;
+}
+
+#navigation
+{
+		font-size: 20px;
+		color: rgb(0, 219, 0);
+}
