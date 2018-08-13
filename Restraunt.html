@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html>
+<div class = "pageContent">
 	<header> 
 		<title> Tacos 'n' Food  </title>
 		<link href = "restaurantStyle.css" rel = "stylesheet"  type "text/css" />
@@ -9,10 +10,21 @@
 		<!--  These two are for using tabs for navigation.  The first one enables it, second speeds it up? -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+</div>
 	</header> 
 
 	<body>
+	
+	<noscript>
+		<style type = "text/css">
+			.pageContent {display:none;}
+		</style>
+		<div class = "noJavaMsg">
+			Either the world is ending, or you fo not have Javascript enabled.  I care not which.
+		</div>
+	</noscript>
+	
+<div class="pageContent">
 	<div class = "container">
 		<div id = "name"> 
 			<h1>  Tacos 'n' Food </h1>
@@ -31,7 +43,7 @@
 	<hr />
 	
 
-	<div class = "image">	<img src = "images/shark1.jpg" alt = "Photo of a shark" style = height: px300 width: px300;>	</div>
+	<div class = "image">	<img src = "images/ApronPainting.jpg" alt = "Photo of my wife and I in aprons." style = height: px300 width: px300;>	</div>
 	
 	<fieldset>
 		<p>
@@ -53,7 +65,7 @@
 			</P>
 		</footer>
 	</div>   </div>
-	
+</div>
 	<!-- Bootstrap references -->
 	<script src = "js/jquery-3.3.1.min.js"> </script>
 	<script src = "js/popper.min.js"> </script>
